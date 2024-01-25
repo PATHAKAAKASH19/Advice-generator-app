@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(218, 23%, 16%);
+    
+}
+
+.box {
+    
+    width: 35vmax;
+    background-color: white;
+    border-radius:1.4em;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(217, 19%, 24%);
+}
+
+.sub-box {
+ 
+    height: 100%;
+    width: 80%;
+    margin: 0px 10% ;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(217, 19%, 24%);
+}
+
+.advice {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+    margin: 8% 4%;
+    text-align: center;
+}
+
+.quote {
+    
+    height: 50%;
+    font-size: 22px;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+  
+}
+
+.img1 {
+ 
+    margin-top: 8%;
+    margin-bottom: 13%;
+}
+
+.bu {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.img2 {
+    position: absolute;
+    background-color: hsl(150, 100%, 66%);
+    box-sizing: content-box;
+    border: 2px solid;
+    padding: 1.1%;
+    border-radius: 50%;
+}
+
+@media (max-width:360px) {
+
+   .box {
+       width: 90vw;
+      
+   }
+
+   .img2 {
+    padding: 1.8%;
+   }
+}
+
+
+
+
+
+
+
+
+
